@@ -1,0 +1,17 @@
+void main()
+{
+    int l,b,a;
+    clrscr();
+
+    printf("\nEnter lenghth no");
+    scanf("%d",&l);
+
+    printf("\nEnter breadtah no");
+    scanf("%d",&b);
+
+    a=l*b;
+    printf("\n area of rectangle=%d",a);
+
+    getch();
+}
+    
