@@ -1,0 +1,13 @@
+void main()
+{
+    float r,a;
+    clrscr();
+
+    printf("\nEnter the radius");
+    scanf("%d",&r);
+
+   a=3.14*r*r;
+    printf("\n area=%f",a);
+
+    getch();
+}
