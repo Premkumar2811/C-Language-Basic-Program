@@ -1,0 +1,16 @@
+void main()
+{
+    float b,h,a;
+    clrscr();
+
+    printf("\nEnter the base");
+    scanf("%d",&b);
+
+    printf("\nEnter the height");
+    scanf("%d",&h);
+
+    a=0.5*b*h;
+    printf("\n area=%f",a);
+
+    getch();
+}
