@@ -1,0 +1,19 @@
+void main()
+{
+    float amount, rate,period,i;
+    clrscr();
+
+    printf("\nEnter the amount");
+    scanf("%d",&amount);
+
+    printf("\nEnter the rate");
+    scanf("%d",&rate);
+
+    printf("\nEnter the period");
+    scanf("%d",&period);
+
+    i=amount*rate*period;
+    printf("\n ans=%f",i);
+
+    getch();
+}
