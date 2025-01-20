@@ -1,0 +1,29 @@
+void main()
+{
+    int empno;
+    float basic,hra,da,gross;
+    clrscr();
+
+    printf("\nEnter empno");
+    scanf("%d",&empno);
+
+    printf("\nEnter basic salary");
+    scanf("%d",&basic);
+
+   hra=basic*0.10;
+   da=basic*0.20;
+   gross=basic+hra+da;
+
+   printf("\n hra=%f",hra);
+   printf(\n da=%f",da);
+   printf(\n gross=%f",gross);
+    getch();
+}
+
+
+output :-
+Enter empno [1]
+Enter basic salary [1000]
+hra[100.000000]
+da[200.000000]
+gross[1300.000000]
