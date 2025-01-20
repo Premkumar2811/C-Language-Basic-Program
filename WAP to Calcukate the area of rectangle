@@ -14,4 +14,11 @@ void main()
 
     getch();
 }
-    
+
+
+ Output :-
+
+Enter lenghth no 5
+Enter breadtah no 6
+
+area of rectangle = 30
