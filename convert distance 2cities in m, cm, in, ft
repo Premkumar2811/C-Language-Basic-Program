@@ -1,0 +1,30 @@
+void main()
+{
+    float km,meter,cm,inch,feet;
+    clrscr();
+
+    printf("\nEnter the km");
+    scanf("%d",&km);
+
+   meter=km*1000;
+   cm=meter*100;
+   inch=cm/2.54;
+   feet=inch/12
+
+   printf("\n meter=%f",meter);
+   printf("\n cm=%f",cm);
+   printf("\n inch=%f",inch);
+   printf("\n feet=%f",feet);
+
+    getch();
+}
+
+
+
+Output:-
+Enter the km [1]
+
+meter [1000.000000]
+cm  [100000.000000]
+inch  [39370.078125]
+feet  [3280.839844]
