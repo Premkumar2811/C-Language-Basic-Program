@@ -11,3 +11,9 @@ void main()
 
     getch();
 }
+
+
+
+output:-
+Enter the radius 5
+ Area = 314.00000
