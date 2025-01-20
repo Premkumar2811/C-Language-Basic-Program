@@ -1,0 +1,25 @@
+void main()
+{
+    int x,f,l,sum;
+    clrscr();
+
+    printf("\nEnter 4digit no");
+    scanf("%d",&x);
+
+    f=x/1000;
+    l=x%10;
+    sum=f+l;
+
+   printf("\n f=%d",f);
+   printf(\n l=%d",l);
+   printf(\n add=%d",sum);
+    getch();
+}
+
+
+
+Output:-
+Enter 4digit no [1002]
+f [1]
+l [2]
+add [3]
