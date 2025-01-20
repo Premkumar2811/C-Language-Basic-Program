@@ -17,3 +17,12 @@ void main()
 
     getch();
 }
+
+
+
+Output :-
+Enter the amount 1000
+Enter the rate 0.1
+Enter theperiod 1
+
+ans = 100.00000
