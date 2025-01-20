@@ -1,0 +1,19 @@
+void main()
+{
+    floatf,c;
+    clrscr();
+
+    printf("\nEnter temperature fahrenheit");
+    scanf("%d",&f);
+
+    c=(5.0/9.0)*(f-32);
+    printf("\n ans=%f",c);
+
+    getch();
+}
+
+
+outpute :-
+Enter temperature fahrenheit [100]
+
+ans=37.777779
