@@ -14,3 +14,10 @@ void main()
 
     getch();
 }
+
+
+Output 
+Enter first no 5
+Enter second no 5
+
+Add = 10
