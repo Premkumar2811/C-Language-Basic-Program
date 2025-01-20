@@ -14,3 +14,11 @@ void main()
 
     getch();
 }
+
+
+
+output:-
+Enter the base 5
+Enter the height 5
+
+Area = 12.500000
