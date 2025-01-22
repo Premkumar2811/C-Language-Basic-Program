@@ -1,0 +1,27 @@
+void main()
+{
+    int x,y,t;
+    clrscr();
+
+    printf("\nEnter x variable");
+    scanf("%d",&x);
+
+    printf("\nEnter y variable");
+    scanf("%d",&y);
+
+   x=x-y;
+   y=x+y;
+   x=y-x;
+
+   printf("\n y=%d",y);
+   printf("\n x=%d",x);
+   getch();
+}
+
+
+output;-
+Enter x variable [10]
+Enter y variable [20]
+
+x=[20]
+y=[10]
